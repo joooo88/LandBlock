@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="ko" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>LandBlock | 랜드블록</title>
+
+  <!--meta-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, minimum-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="le=edge">
+
+  <!--bootstrap-->
+  <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!--css-->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="http://cdn.jsdelivr.net/npm/xeicon@2.3.3/xeicon.min.css">
+
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/index.css">
+  <link rel="stylesheet" href="css/moblie.css">
+
+  <!--favicon--->
+  <link href="img/favicon.ico" rel="icon">
+  <link href="img/favicon.ico" rel="apple-touch-icon">
+
+  <!--js-->
+  <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+  <script src="js/menu_scroll.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+</head>
+
+
+
+<body>
+
+
+  <header class="">
+
+    <div class="hd_wrap">
+
+      <hgroup>
+
+        <h1> <a href="index.html"><img src="img/Landblock_logo_w.png" alt="logo"></a></h1>
+
+      </hgroup>
+
+
+      <nav class="pc_nav">
+        <ul>
+          <li><a href="#home" class="scroll">Home</a></li>
+          <li><a href="#about" class="scroll">About</a></li>
+          <li><a href="#coin" class="scroll">Landblock Coin</a></li>
+          <li><a href="#roadmap" class="scroll">Roadmap</a></li>
+          <li><a href="#contact" class="scroll">Contact</a></li>
+          <li class="lang"><a href="index_eng.html" class="scroll">Kor | <bb>Eng</bb> </a></li>
+        </ul>
+      </nav>
+
+
+      <!--반응형-->
+
+      <div class="mob_btn">
+
+        <span></span>
+
+        <script>
+          $(function () {
+            $('.mob_btn').click(function () {
+              $(this).toggleClass('active')
+            });
+          });
+        </script>
+
+      </div>
+
+      <nav class="mob_nav">
+
+        <ul>
+
+          <li><a href="#home" class="scroll">Home</a></li>
+          <li><a href="#about" class="scroll">About</a></li>
+          <li><a href="#coin" class="scroll">Landblock Coin</a></li>
+          <li><a href="#roadmap" class="scroll">Roadmap</a></li>
+          <li><a href="#contact" class="scroll">Contact</a></li>
+          <li class="lang"><a href="index_eng.html" class="scroll">Eng</bb> </a></li>
+        </ul>
+      </nav>
+
+      <!--반응형 js-->
+      <script type="text/javascript">
+        $(function () {
+          $(".mob_btn").click(function () {
+            $(".mob_nav").animate({ width: "toggle" }, 250);
+          });
+        });
+
+      </script>
+
+    </div>
+
+  </header>
+
+  <main>
+
+    <section id="home">
+      <div class="main_video">
+        <video autoplay muted loop playsinline>
+          <source src="/vid/mian_vid.mp4" type="video/mp4">
+        </video>
+      </div>
+
+      <div class="home_area container">
+        <div class="home_txt">
+          <h2 data-aos="fade-up" data-aos-duration="1000">LandBlock 랜드블록</h2>
+          <h4 data-aos="fade-up" data-aos-duration="1000" data-aos-delay="250">국제 토지 거래의 관습을 바꾸는 패러다임</h4>
+          <p data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">
+            이러한 NFT기반 토지거래의 발달과 확장은 우리 인류가 한번도 겪어 보지
+            못한 완전히 새로운 방식입니다.<br>
+            따라서 시장에 이러한 시장을 이끌고 있는 강력한 업체나 플레이어가 아직 존재하지 않습니다.<br>
+            시장은 매년 수 천 억원씩 규모가 커지고 있는데 반해 시장에 지배적인 위치에 있는<br>
+            기관이나 주체가 없다는 것은 그 만큼 시장이 아직 더 커질 수 있는 가능성이 있음을 보여줌과 동시에
+            시장의 사전 선점.<br> 성공의 지름길 입니다.
+          </p>
+          <div class="home_btn">
+            <button type="button" onclick="location.href='http://landblock.info/Landblock%20white%20paper%20Ver.01-01-Kor..pdf'" target="_blank"><span>Whitepaper</span></button>
+            <button type="button" onclick="location.href='http://landblock.biz/wallets'"><span>Wallet</span></button>
+            <button type="button" >구글플레이스토어 출시 예정</button>
+          </div>
+        </div>
+        <div class="home_logo">
+          <img src="img/Landblock_logo(300x300).png" alt="landblock logo">
+        </div>
+      </div>
+    </section>
+
+
+    <section id="about">
+      <div class="int_txt container">
+        <desc class="ab_text1">
+          <h3 data-aos="fade-up" data-aos-duration="1000">Introduction</h3>
+          <p data-aos="fade-up" data-aos-duration="1000">많은 부동산 매물 보유자들은 부동산 경기의 활황과 침체에 따라 거래의 타이밍을<br> 
+            놓쳐투자와 확장의 기회를 놓치고 있습니다.<br>
+            NFT화 되어 전세계에 공개되는 부동산매물은 이러한 시장의 흐름에 관계없이<br> 
+            365일 시장에 노출되어 언제라도 거래가 가능해 집니다.<br>
+            부동산 매물의 거래가 국제적으로 가능하게 되어 자산 현금화의 빠른 길이 열립니다.
+          </p>
+        </desc>
+        <div class="ab_bg1">
+          <img>
+        </div>
+      </div>
+      
+      <div class="ab_area container">
+        <h3 data-aos="fade-up" data-aos-duration="1000">LandBlock<br>Blockchain Systems</h3>
+        <div class="ab_content">
+          <div class="ab_img" data-aos="zoom-in">
+            <img src="img/intro2.png" alt="">
+          </div>
+          <div class="ab_txt">
+            <h4 data-aos="fade-up" data-aos-duration="1000">블록체인의 투명성, 효율성은 부동산 거래의 판도를 영원히 바꿉니다.</h4>
+            <h6 data-aos="fade-up" data-aos-duration="1000">
+              부동산 거래 플랫폼의 가장 핵심적인 경쟁력은 정보의 정확도, 데이터의 투명성, 거래의 무결점성 등이 있습니다. <br>
+              이러한 핵심 경쟁력을 확보 하지 못 한 부동산 거래 플랫폼은 시장에서 외면 받을 수 밖에 없으며 랜드블록은 <br> 이러한 경쟁력을 기존 방식의 운영이 아닌 블록체인의 ERC20시스템에서 찾을 수 있었습니다
+            </h6>
+            
+          </div>
+
+          <layer>
+            <img class="la1" src="img/Vector 1.png">
+            <img class="la2" src="img/Vector 1.png">
+          </layer>
+          <div class="ab_rogo2">
+            <img src="img/Landblock_logo.png" >
+            <!-- <span class="span_line"></span>
+            <span class="span_one"></span> -->
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="intro3">
+      <div class="intro3_wrap container">
+        <h3 data-aos="fade-up" data-aos-duration="1000">랜드블록(LandBlock) </h3>
+        <h4 data-aos="fade-up" data-aos-duration="1300"> 생태계 구성원과 각 구성원의 혜택</h4>
+
+        <div class="intro3_wrap_content">
+          <div class="intro3_wrap_content intro3_img" data-aos="fade-left" data-aos-offset="300"
+            data-aos-easing="ease-in-sine" data-aos-duration="1000">
+            <img src="img/in_01.png" alt="">
+          </div>
+          
+          <div class="intro3_cont_left intro3_txt" data-aos="fade-right" data-aos-offset="300"
+            data-aos-easing="ease-in-sine" data-aos-duration="1000">
+            <ul class="intro3_cont_left_texts">
+
+              <li class="item is-active" active-color='#30A4DD'>
+                <b>부동산 상품 제공자</b><br>많은 부동산 매물 보유자들은 부동산 경기의 활황과 침체에 따라 거래의 타이밍을 놓쳐 투자와 확장의 기회를 놓치고 있습니다. NFT화 되어 전세계에
+                공개되는 부동산매물은 이러한 시장의 흐름에 관계없이 365일 시장에 노출되어 언제라도 거래가 가능해 집니다.
+
+              </li>
+
+              <li class="item" active-color='#30A4DD'>
+                <b>부동산 상품 NFT화 서비스 제공자</b><br>실물 부동산 상품을 시장의 흐름과 필요에 맞게 작품화 하고 메타데이터 처리 및 블록체인에 민팅 할 수 있도록 상품화를 시켜주는
+                업체들은 이러한 상품화 과정에서의 수수료와 컨설팅 비용을 청구하여 수익을 창출할 수 있게 됩니다.
+
+              </li>
+
+              <li class="item" active-color='#30A4DD'>
+                <b>부동산 상품 개인 및 기관투자자</b><br>상품화 된 NFT에 대한 시장의 수요는 놀라울 정도로 높습니다. 일반 NFT 수집 개인부터 이러한 NFT상품을 다양하게 제품군 별로
+                구매하고 재판매하여 수익을 내고 있는 기관 투자자등은 품질 좋은 NFT부동산 상품에 대한 수요를 항상 가지고 있습니다
+
+              </li>
+            </ul>
+          </div>
+          
+        </div>
+
+
+        <div class="intro3_cont_right" data-aos="fade-left" data-aos-anchor="#example-anchor" data-aos-offset="500"
+          data-aos-duration="1500">
+          <div class="intro3_cont_right_box">
+            <img src="img/intro3.png" alt="">
+          </div>
+        </div>
+
+
+      </div>
+    </section>
+
+    <section id="coin">
+      <div class="coin_area container">
+        <h3 data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="1000">랜드블록(LandBlock) Coin</h3>
+        <div class="coin_box" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="1000"><h4>LandBlock Coin</h4></div>
+        <h5 data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="1000">
+          실물 부동산 상품의 빠른 NFT상품화, 국제거래시 발생 할 수 있는 법적문제,
+          사업확장을 위한 인센티브 예산등을 <br> 미리 준비하여 실제 사업 개시 후
+          발생 할 수 있는 모든 법적, 재정적 문제를 대비하고자 합니다.
+        </h5>
+        <div class="coin_wrap" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="1000">
+          <div class="coin-w-box">
+            <div class="chart_area">
+              <div class="chart_data" >
+                
+               <ul class="ul-left">
+                <li><span></span>40,000,000 20% 글로벌 마케팅</li>
+                  <li><span></span>40,000,000 20% 부동산 국제 법률 서비스 </li>
+                  <li><span></span>70,000,000 35% 사업 확장을 위한 인센티브 예산</li>
+               </ul>
+               <ul class="ul-right">
+                <li><span></span>팀&어드바이저 5% 10,000,000</li>
+                <li><span></span>사용자 매물 NFT작품화 예산 5% 10,000,000</li>
+                <li><span></span>코인세일 15% 30,000,000</li>
+              </ul>
+              </div>
+              <div class="chart">
+                <img src="img/coin_pie.png">
+              </div>
+            
+            </div>
+          </div>
+          
+
+          <div class="chart_txt">
+            <p class="chart-p">Coin name: LandBlock ｜ Symbol: LDBL ｜ Protocol: ERC20 ｜Total supply : 200,000,000</p>
+          </div>
+        </div>
+      </div>
+    </section>
+     
+      <script>
+        const data = {
+          // labels: [
+          //     'Coin sales',
+          //     'Development for Battery Material',
+          //     'M&A of Battery material development and manufacturing lines',
+          //     'Global marketing',
+          //     'Legal Advisory',
+          //     'Team',
+
+          // ],
+          // display: ['none']
+          // ,
+
+          datasets: [
+            {
+              label: [""],
+              data: [5, 5, 15, 20, 20, 35],
+              backgroundColor: [
+                "#ed7d31",
+                "#ffc000",
+                "#70ad47",
+                "#9e480e",
+                "#99730",
+                "#43682b",
+              ],
+              hoverOffset: 4,
+            },
+          ],
+        };
+
+        const config = {
+          type: "doughnut",
+          data: data,
+        };
+      </script>
+
+      <script>
+        const myChart = new Chart(
+          document.getElementById("myChart"),
+          config
+        );
+      </script>
+
+      <!-- roadmap -->
+      <section id="roadmap">
+
+        <article class="roadmap_box container" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="1000">
+          <h3>랜드블록(LandBlock)</h3>
+          <div><h4>Roadmap</h4> </div>
+        </article>
+
+        <article class="roadmap-text">
+          <div class="road_box left" data-aos="fade-right" data-aos-duration="3000">
+            
+            <h4>2023</h4>
+
+          <div class="road_txt">
+            <ul>
+              <li>
+                <h5>Q1</h5>
+                <p>Landblock [랜드블록] 설립</p>
+              </li>
+              <li>
+                <h5>Q2</h5>
+                <p>국제 부동산 NFT상품화 트렌드 조사</p>
+              </li>
+              <li>
+                <h5>Q3</h5>
+                <p>- 국제 부동산 NFT상품화 트렌드 조사<br>
+                  - 랜드블록 WEB 3.0지갑 제작<br>
+                  - 국제 거래소 1차 상장NFT</p>
+              </li>
+              <li>
+                <h5>Q4</h5>
+                <p>부동산 NFT 상품 컨퍼런스 참여</p>
+              </li>
+              <li>
+                <h5>Q5</h5>
+                <p>추가 국제 거래소 상장</p>
+              </li>
+            </ul>
+          </div>
+
+        </div>
+        <div class="road_box rifht" data-aos="fade-left" data-aos-duration="3000">
+            <h4>2024</h4>
+          <div class="road_txt">
+            <ul>
+              <li>
+                <h5>Q1</h5>
+                <p>플랫폼 고도화 작업 시작</p>
+              </li>
+              <li>
+                <h5>Q2</h5>
+                <p>국제 부동산 NFT 협회 가입통한 영향력 확대</p>
+              </li>
+              <li>
+                <h5>Q3</h5>
+                <p>부동산 NFT상품 다변화를 통한 시장확대</p>
+              </li>
+              <li>
+                <h5>Q4</h5>
+                <p>국제 시장 확대를 위한 추가 NFT거래소 출품</p>
+              </li>
+            </ul>
+          </div>
+        </div>
+        </article>
+        
+      </section>
+
+      <!-- contact -->
+      <section id="contact">
+        <div class="contact_wrap container" >
+          <h3 data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="1000">Contact</h3>
+
+          <form data-aos="fade-up" data-aos-duration="1500" class="gform" action="" method="post" data-email="">
+            <input type="email"  name="email" placeholder="E-mail" class="email" required>
+            <input name="message" id="message" placeholder="Message" class="message" required></input>
+            <input type="submit" value="SEND" class="send">
+          </form>
+        </div>
+      </section>
+
+
+  </main>
+
+  <footer>
+    <div class="footer_area container">
+      <div class="f_logo">
+        <img src="img/Landblock_logo_w.png">
+      </div>
+      <div class="footer_top">
+
+        
+        <div class="f_left">
+          <h4>Whitepaper</h4>
+
+          <a href="Landblock white paper Ver.01-01-Kor..pdf" class="whitepp_Kor">
+            <span><img src="img/footer_pdf_K.svg"></span>
+          </a>
+          <a href="Landblock white paper Ver.01-01-Eng..pdf" class="whitepp_Eng">
+            <span><img src="img/footer_pdf_E.svg"></span>
+          </a>
+        </div>
+
+        <div class="f_center">
+          <h4>LandBlock Inc.</h4>
+          <h5>Customer Center : 070-8018-2011</h5>
+          <h5>공유사무실 : 경기도 수원시 팔달구 인계동 957번지 동부빌딩 502-85호</h5>
+          <!-- <h5>고객센터 연락처 : 070-8018-2011</h5> -->
+          <!-- <h5>Customer Center : </h5> -->
+        </div>
+
+        <div class="f_right">
+          <h4>Community</h4>
+          <a href=" https://t.me/landblock_official" class="telegram"><img src="img/icons8-telegram-50.png"></a>
+          <a href=" https://open.kakao.com/o/sddLWxrf" class="kakao"><img src="img/icons8-kakaotalk-48.png"></a>
+        </div>
+      </div>
+
+      <div class="footer_bottom">
+        <p>재단은 코인제작 및 플랫폼 운영, 지갑 관리, 거래소 상장 추진 및 관리에 관한 업무만 진행하고 있습니다.</p>
+      </div>
+    </div>
+  </footer>
+  <script>
+    AOS.init();
+  </script>
+
+  <script src="https://kit.fontawesome.com/66ee5b9576.js" crossorigin="anonymous"></script>
+  <script src="js/swiper.js"></script>
+  <script src="js/indicator.js"></script>
+  <script src="js/index.js"></script>
+
+
+</body>
+
+
+</html>
